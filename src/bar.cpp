@@ -225,7 +225,7 @@ void Bar::render()
 	_x = 0;
 
 	renderTags();
-	setColorScheme(_selected ? colorActive : colorInactive);
+	setColorScheme(colorInactive);
 	renderComponent(_layoutCmp);
 	renderComponent(_titleCmp);
 	renderStatus();
